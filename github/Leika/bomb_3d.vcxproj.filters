@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Font">
+      <UniqueIdentifier>{2e505f80-a828-4c6b-882e-2feefc5fae20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="property">
+      <UniqueIdentifier>{9bcbddd1-556e-41f2-af1a-55b678cfe964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{ead02675-9964-4864-a0fb-b0a99e5a1325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Player">
+      <UniqueIdentifier>{7677371c-d1cd-4e26-a898-d3892c711281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Camera">
+      <UniqueIdentifier>{8a9d8d4a-0f31-4e99-bf48-80e68379aa06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Loader">
+      <UniqueIdentifier>{f35b3467-27a5-411e-bfc7-29e0aaf6a9ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\DirectX">
+      <UniqueIdentifier>{c0c1e442-a092-4f9c-b5f0-9ccd66dc9583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Enemy">
+      <UniqueIdentifier>{f938a21e-8c0d-4c47-bcb3-4c08e60875c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Enemy\Enemyfactory">
+      <UniqueIdentifier>{aca1dbc7-40e3-4eb7-8da0-e345344aa0e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Enemy\EnemyBullet">
+      <UniqueIdentifier>{06d5f33f-e976-4fe2-af22-5a646774485e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Player\PlayerBullet">
+      <UniqueIdentifier>{735648f0-5fcb-4de9-a2a5-f8601015f604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Control">
+      <UniqueIdentifier>{a0830e44-a797-4be1-b120-28e8f7d3150b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Collision">
+      <UniqueIdentifier>{31865cb6-1ae9-4e6d-9df5-62111a716160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Effect">
+      <UniqueIdentifier>{4c563a6c-53c7-4c45-abb5-feee51cd3ff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Pause">
+      <UniqueIdentifier>{3b5ff6ca-e1d2-4bec-ace1-936ec042728e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Item">
+      <UniqueIdentifier>{4cbd2e10-e008-4253-b225-f81134b44f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Replay">
+      <UniqueIdentifier>{d7f91682-0ecf-41fb-9e1a-84e9bd85b150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Effect\Result">
+      <UniqueIdentifier>{4c8d987e-6d7e-4c9a-8127-501bb33359cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Utility">
+      <UniqueIdentifier>{79e6cf29-38b3-4030-b742-aaa17c7a7a97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UI">
+      <UniqueIdentifier>{45ad5666-0775-42b6-86d2-d59c487b3b94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Texture">
+      <UniqueIdentifier>{1d5bc94a-d053-45d2-97cd-22c8b2e4d490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Sound">
+      <UniqueIdentifier>{90947eb6-76d3-45e3-b9b0-d00b990320ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\InputManager">
+      <UniqueIdentifier>{ffeb2513-e497-49ed-abf3-a92d200d37c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game">
+      <UniqueIdentifier>{a88ed49a-5c77-4e79-b0f5-a5dd5a9a828a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\icon">
+      <UniqueIdentifier>{aae5e1e6-917f-4daf-b6b4-4aeb096ecef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\shader">
+      <UniqueIdentifier>{163df8c1-6c95-4d2f-8263-0ba219f5ca2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル\model">
+      <UniqueIdentifier>{db210f76-66bb-4773-8dfa-addfe2d483f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Utility\Gauge">
+      <UniqueIdentifier>{f9444eb9-0533-4de2-a598-d8e7a45d03e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Window">
+      <UniqueIdentifier>{495fc48e-66d2-4715-9ea7-7845eef86217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Stdafx">
+      <UniqueIdentifier>{df6c6e84-3509-40ce-87f0-4ae8770f1375}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Camera\Camera.cpp">
+      <Filter>ソース ファイル\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player\Player.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Scene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\SceneManager.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\TitleScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Loader\File.cpp">
+      <Filter>ソース ファイル\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Loader\Loader.cpp">
+      <Filter>ソース ファイル\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DirectX\Direct3D.cpp">
+      <Filter>ソース ファイル\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player\PlayerBullet\Bomb.cpp">
+      <Filter>ソース ファイル\Player\PlayerBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player\PlayerBullet\Bullet.cpp">
+      <Filter>ソース ファイル\Player\PlayerBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player\PlayerBullet\PlayerWeapon.cpp">
+      <Filter>ソース ファイル\Player\PlayerBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\Boss.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\Enemy.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\SmallEnemy.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\EnemyFactory\EnemyFactory.cpp">
+      <Filter>ソース ファイル\Enemy\Enemyfactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\EnemyBullet\EnemyBullet.cpp">
+      <Filter>ソース ファイル\Enemy\EnemyBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\EnemyBullet\SmallBallBullet.cpp">
+      <Filter>ソース ファイル\Enemy\EnemyBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Control\Control.cpp">
+      <Filter>ソース ファイル\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Effect\EnemyCrash.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Effect\PlayerCrash.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pause\Pause.cpp">
+      <Filter>ソース ファイル\Pause</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item\Item.cpp">
+      <Filter>ソース ファイル\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Replay\Replay.cpp">
+      <Filter>ソース ファイル\Replay</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Result\Result.cpp">
+      <Filter>ソース ファイル\Effect\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Debug.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Fps.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\TextManager.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\UI.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Constant.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Function.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Stage.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\GraphManager.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture\Texture.cpp">
+      <Filter>ソース ファイル\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sound\Bgm.cpp">
+      <Filter>ソース ファイル\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sound\OrgSound.cpp">
+      <Filter>ソース ファイル\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sound\Sound.cpp">
+      <Filter>ソース ファイル\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sound\SoundManager.cpp">
+      <Filter>ソース ファイル\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collision\Collision.cpp">
+      <Filter>ソース ファイル\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InputManager\InputManager.cpp">
+      <Filter>ソース ファイル\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Game.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Tween.cpp">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DirectX\Direct2DBase.cpp">
+      <Filter>ソース ファイル\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DirectX\DWriteBase.cpp">
+      <Filter>ソース ファイル\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player\PlayerBullet\ChargeBullet.cpp">
+      <Filter>ソース ファイル\Player\PlayerBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Gauge\Gauge.cpp">
+      <Filter>ソース ファイル\Utility\Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Gauge\PaintBrush.cpp">
+      <Filter>ソース ファイル\Utility\Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Gauge\CircleGauge.cpp">
+      <Filter>ソース ファイル\Utility\Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Effect\BossCrashEffect.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\PlayScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Window\Window.cpp">
+      <Filter>ソース ファイル\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility\Gauge\RectGauge.cpp">
+      <Filter>ソース ファイル\Utility\Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Stdafx\stdafx.cpp">
+      <Filter>ソース ファイル\Stdafx</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Camera\Camera.h">
+      <Filter>ソース ファイル\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\PlayScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Scene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\SceneManager.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\TitleScene.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Loader\File.h">
+      <Filter>ソース ファイル\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Loader\Loader.h">
+      <Filter>ソース ファイル\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DirectX\Direct3D.h">
+      <Filter>ソース ファイル\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player\PlayerBullet\Bomb.h">
+      <Filter>ソース ファイル\Player\PlayerBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player\PlayerBullet\Bullet.h">
+      <Filter>ソース ファイル\Player\PlayerBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player\PlayerBullet\PlayerWeapon.h">
+      <Filter>ソース ファイル\Player\PlayerBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\Boss.h">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\Enemy.h">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\SmallEnemy.h">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\EnemyFactory\EnemyFactory.h">
+      <Filter>ソース ファイル\Enemy\Enemyfactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\EnemyBullet\EnemyBullet.h">
+      <Filter>ソース ファイル\Enemy\EnemyBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\EnemyBullet\SmallBallBullet.h">
+      <Filter>ソース ファイル\Enemy\EnemyBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Control\Control.h">
+      <Filter>ソース ファイル\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision\Shape.h">
+      <Filter>ソース ファイル\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Effect\EnemyCrash.h">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Effect\PlayerCrash.h">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Pause\Pause.h">
+      <Filter>ソース ファイル\Pause</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\Item.h">
+      <Filter>ソース ファイル\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Replay\Replay.h">
+      <Filter>ソース ファイル\Replay</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Result\Result.h">
+      <Filter>ソース ファイル\Effect\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Debug.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Fps.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\task.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\TaskManager.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\TextManager.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\UI.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Constant.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Function.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stage.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\GraphManager.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player\Player.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture\Texture.h">
+      <Filter>ソース ファイル\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound\Bgm.h">
+      <Filter>ソース ファイル\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound\OrgSound.h">
+      <Filter>ソース ファイル\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound\Sound.h">
+      <Filter>ソース ファイル\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound\SoundManager.h">
+      <Filter>ソース ファイル\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision\Collision.h">
+      <Filter>ソース ファイル\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InputManager\InputManager.h">
+      <Filter>ソース ファイル\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Game.h">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Icon\resource.h">
+      <Filter>リソース ファイル\icon</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Tween.h">
+      <Filter>ソース ファイル\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DirectX\Direct2DBase.h">
+      <Filter>ソース ファイル\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DirectX\DWriteBase.h">
+      <Filter>ソース ファイル\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player\PlayerBullet\ChargeBullet.h">
+      <Filter>ソース ファイル\Player\PlayerBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Gauge\Gauge.h">
+      <Filter>ソース ファイル\Utility\Gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Gauge\PaintBrush.h">
+      <Filter>ソース ファイル\Utility\Gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Gauge\CircleGauge.h">
+      <Filter>ソース ファイル\Utility\Gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Effect\BossCrashEffect.h">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Window\Window.h">
+      <Filter>ソース ファイル\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility\Gauge\RectGauge.h">
+      <Filter>ソース ファイル\Utility\Gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stdafx\stdafx.h">
+      <Filter>ソース ファイル\Stdafx</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="myfile.spritefont">
+      <Filter>Font</Filter>
+    </None>
+    <None Include="DebugBase.props">
+      <Filter>property</Filter>
+    </None>
+    <None Include="ReleaseBase.props">
+      <Filter>property</Filter>
+    </None>
+    <None Include="Resources\Icon\bomb_3d.aps">
+      <Filter>リソース ファイル\icon</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\Icon\bomb_3d.rc">
+      <Filter>リソース ファイル\icon</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Icon\icon1.ico">
+      <Filter>リソース ファイル\icon</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <MeshContentTask Include="Resources\Models\bigCloud.fbx">
+      <Filter>リソース ファイル\model</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\Models\middleCloud.fbx">
+      <Filter>リソース ファイル\model</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\Models\smallCloud.fbx">
+      <Filter>リソース ファイル\model</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\Models\stage01.FBX">
+      <Filter>リソース ファイル\model</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Resources\Models\logo.FBX">
+      <Filter>リソース ファイル\model</Filter>
+    </MeshContentTask>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resources\Shader\stage01Shader.hlsl">
+      <Filter>リソース ファイル\shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

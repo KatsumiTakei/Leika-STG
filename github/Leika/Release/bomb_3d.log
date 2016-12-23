@@ -1,0 +1,80 @@
+﻿  Resources\Models\bigCloud.fbx
+  Resources\Models\logo.FBX
+  Resources\Models\middleCloud.fbx
+  Resources\Models\smallCloud.fbx
+  Resources\Models\stage01.FBX
+  Control.cpp
+  BossCrashEffect.cpp
+  EnemyCrash.cpp
+  PlayerCrash.cpp
+  Boss.cpp
+  Enemy.cpp
+  EnemyBullet.cpp
+  SmallBallBullet.cpp
+  EnemyFactory.cpp
+  SmallEnemy.cpp
+  Function.cpp
+Source\Function.cpp(50): error C3861: 'DrawRectGraph': 識別子が見つかりませんでした
+Source\Function.cpp(56): error C3861: 'DrawRectGraph': 識別子が見つかりませんでした
+  Game.cpp
+  Item.cpp
+  Pause.cpp
+  Player.cpp
+  Bomb.cpp
+  Bullet.cpp
+  ChargeBullet.cpp
+  PlayerWeapon.cpp
+  Replay.cpp
+  コンパイル中...
+  Result.cpp
+  PlayScene.cpp
+  TitleScene.cpp
+  Stage.cpp
+  Texture.cpp
+  UI.cpp
+  Fps.cpp
+  GraphManager.cpp
+Source\Utility\GraphManager.cpp(111): error C3861: 'Vector2': 識別子が見つかりませんでした
+Source\Utility\GraphManager.cpp(117): error C3861: 'Vector2': 識別子が見つかりませんでした
+Source\Utility\GraphManager.cpp(118): error C2065: 'White': 定義されていない識別子です。
+Source\Utility\GraphManager.cpp(118): error C3861: 'Vector2': 識別子が見つかりませんでした
+Source\Utility\GraphManager.cpp(125): error C3861: 'Vector2': 識別子が見つかりませんでした
+Source\Utility\GraphManager.cpp(126): error C2065: 'White': 定義されていない識別子です。
+Source\Utility\GraphManager.cpp(126): error C3861: 'Vector2': 識別子が見つかりませんでした
+Source\Utility\GraphManager.cpp(131): error C2061: 構文エラー: 識別子 'Color'
+Source\Utility\GraphManager.cpp(132): error C2084: 関数 'void DrawRectGraph(float,float,float,float,float,float,Texture *)' は既に本体を持っています。
+  Source\Utility\GraphManager.cpp(121): note: 'DrawRectGraph' の以前の定義を確認してください
+Source\Utility\GraphManager.cpp(134): error C3861: 'Vector2': 識別子が見つかりませんでした
+Source\Utility\GraphManager.cpp(135): error C2065: 'argColor': 定義されていない識別子です。
+Source\Utility\GraphManager.cpp(135): error C3861: 'Vector2': 識別子が見つかりませんでした
+Source\Utility\GraphManager.cpp(143): error C3861: 'Vector2': 識別子が見つかりませんでした
+Source\Utility\GraphManager.cpp(144): error C2065: 'White': 定義されていない識別子です。
+Source\Utility\GraphManager.cpp(144): error C3861: 'Vector2': 識別子が見つかりませんでした
+Source\Utility\GraphManager.cpp(152): error C3861: 'Vector2': 識別子が見つかりませんでした
+Source\Utility\GraphManager.cpp(153): error C2065: 'White': 定義されていない識別子です。
+Source\Utility\GraphManager.cpp(153): error C3861: 'Vector2': 識別子が見つかりませんでした
+Source\Utility\GraphManager.cpp(158): error C2061: 構文エラー: 識別子 'Vector2'
+Source\Utility\GraphManager.cpp(161): error C2065: 'argTexture': 定義されていない識別子です。
+Source\Utility\GraphManager.cpp(161): error C2227: '->texture_' : 左側がクラス、構造体、共用体、ジェネリック型へのポインターではありません。
+  Source\Utility\GraphManager.cpp(161): note: 型は 'unknown-type' です。
+Source\Utility\GraphManager.cpp(161): error C3861: 'Vector2': 識別子が見つかりませんでした
+Source\Utility\GraphManager.cpp(162): error C2065: 'White': 定義されていない識別子です。
+Source\Utility\GraphManager.cpp(162): error C2065: 'argAngle': 定義されていない識別子です。
+Source\Utility\GraphManager.cpp(162): error C3861: 'Vector2': 識別子が見つかりませんでした
+Source\Utility\GraphManager.cpp(162): error C2065: 'argExRate': 定義されていない識別子です。
+Source\Utility\GraphManager.cpp(167): error C2061: 構文エラー: 識別子 'Color'
+Source\Utility\GraphManager.cpp(168): error C2084: 関数 'void DrawRotaGraph(float,float,float,float,float,float,float,float,Texture *)' は既に本体を持っています。
+  Source\Utility\GraphManager.cpp(148): note: 'DrawRotaGraph' の以前の定義を確認してください
+Source\Utility\GraphManager.cpp(170): error C3861: 'Vector2': 識別子が見つかりませんでした
+Source\Utility\GraphManager.cpp(171): error C2065: 'argColor': 定義されていない識別子です。
+Source\Utility\GraphManager.cpp(171): error C3861: 'Vector2': 識別子が見つかりませんでした
+Source\Utility\GraphManager.cpp(179): error C3861: 'Vector2': 識別子が見つかりませんでした
+Source\Utility\GraphManager.cpp(180): error C2065: 'White': 定義されていない識別子です。
+Source\Utility\GraphManager.cpp(180): error C3861: 'Vector2': 識別子が見つかりませんでした
+Source\Utility\GraphManager.cpp(185): error C2061: 構文エラー: 識別子 'Color'
+Source\Utility\GraphManager.cpp(186): error C2084: 関数 'void DrawRectRotaGraph(float,float,float,float,float,float,float,float,Texture *)' は既に本体を持っています。
+  Source\Utility\GraphManager.cpp(175): note: 'DrawRectRotaGraph' の以前の定義を確認してください
+Source\Utility\GraphManager.cpp(188): error C3861: 'Vector2': 識別子が見つかりませんでした
+Source\Utility\GraphManager.cpp(189): error C2065: 'argColor': 定義されていない識別子です。
+Source\Utility\GraphManager.cpp(189): error C3861: 'Vector2': 識別子が見つかりませんでした
+  TextManager.cpp
